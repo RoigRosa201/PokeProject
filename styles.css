@@ -14,3 +14,15 @@
 .container {
     padding: 2px 16px;
 }
+
+
+.card{
+    padding: 45px;
+   
+}
+
+#btnRegerate{
+    padding: 8px;
+    font-size: medium;
+    margin-bottom: 13px;
+}
