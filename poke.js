@@ -21,3 +21,11 @@
     }
     }
   
+        $("#btnRegenerate").on('click',function(e) {
+            e.preventDefault();
+            let min= Math.floor(Math.random() * 30+1);
+            let max= Math.floor(Math.random() * 100+1);
+            $("#mainDiv").html('');
+    renderContent(min,max);
+    });
+    
